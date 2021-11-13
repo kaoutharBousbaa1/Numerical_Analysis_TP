@@ -1,12 +1,12 @@
 from matplotlib.pylab import plot, show
 import numpy as np
-def f(x)
+def f(x):
     x = x**3 - x - 3
-def g(y)
+def g(y):
     y = 3**2 - 1
-def Newton(f, g, alpha, n)
+def Newton(f, g, alpha, n):
     l = [0]
-    while(n <= 100)
+    while(n <= 100):
         alpha = alpha - f(alpha) / g(alpha)
         n = n + 1
 	l = l + [alpha]
