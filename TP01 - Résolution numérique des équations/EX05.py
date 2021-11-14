@@ -1,4 +1,4 @@
-from matplotlib.pylab import plot, show
+from matplotlib.pylab import plot, show, grid
 def f(x):
     x = x**3 - x - 3
 def g(y):
