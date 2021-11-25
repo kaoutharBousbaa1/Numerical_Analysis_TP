@@ -5,5 +5,5 @@ def PolyLagrange(X, x, i):
 	Y = np.concatenate(X[:i], X[i+1:], axis = None)
 	res = 1
 	for k in range(len(Y)):
-		res = res * ((x - Y[k])/(y - Y[K]))
+		res = res * ((x - Y[k])/(y - Y[k]))
 	return res 
